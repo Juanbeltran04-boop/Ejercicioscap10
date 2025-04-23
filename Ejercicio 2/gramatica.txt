@@ -1,0 +1,10 @@
+I → J uno
+I → dos K
+I → ε
+X → I tres J K
+X → cuatro
+X → ε
+J → X cinco K seis
+J → ε
+K → siete X
+K → ε
