@@ -39,3 +39,5 @@ Dado que Python es un lenguaje interpretado, no requiere un paso de compilación
     Presiona la tecla Enter para que el analizador procese la entrada.
 
 6.  **Revisa la salida:** El analizador mostrará en la consola los pasos del análisis, indicando las no terminales que se están intentando y las coincidencias encontradas. Al final, informará si el análisis sintáctico fue exitoso o si se detectaron errores en la entrada según la gramática implementada.
+
+7.  **La gramatica es LL(1) o no y porque:** gramática no es LL(1) debido a la recursión izquierda directa en la producción de S.
