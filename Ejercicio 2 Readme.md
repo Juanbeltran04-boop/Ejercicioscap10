@@ -28,3 +28,5 @@ gramatica = {
     "J": [["X", "cinco", "K", "seis"], ["ε"]],
     "K": [["siete", "X"], ["ε"]],
 }
+### la gramatica es LL(1) o no y porque.
+La gramática no es LL(1) porque las producciones de S→B uno y S→dos C tienen un conflicto en sus conjuntos FIRST (comparten el terminal 'dos').
