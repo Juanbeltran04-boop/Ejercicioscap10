@@ -21,3 +21,5 @@ Para compilar y ejecutar este proyecto necesitas:
 ```bash
 sudo apt update
 sudo apt install bison flex build-essential
+## 2. ¿Esta gramatica es LL(1) o no y porque.
+La gramática proporcionada no es LL(1) debido a la recursión izquierda directa en la producción de B (B→B cuatro C cinco). Esta recursión impide que un parser LL(1) decida determinísticamente qué producción aplicar basándose en un único símbolo de anticipación, lo cual es un requisito fundamental para las gramáticas LL(1).
